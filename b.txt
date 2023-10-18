@@ -1,0 +1,224 @@
+   1  cd bash
+    2  sudo bash
+    3  ls -alrt
+    4  cd /tmp
+    5  ls -alrt
+    6  git init
+    7  ls -alrt
+    8  vi a.txt
+    9  git add .
+   10  pwd
+   11  rm .git
+   12  rm -rf .git
+   13  ls -alrt
+   14  clear
+   15  cd /root
+   16  sudo root
+   17  sudo su
+   18  ls -alrt
+   19  cd kavya
+   20  ls -alrt
+   21  git push origin master
+   22  sudo su
+   23  exit
+   24  sudo su
+   25  ls -alrt
+   26  cd .ssh
+   27  ls -alrt
+   28  cat authorized_keys
+   29  cd ..
+   30  sudo su
+   31  ls -alrt
+   32  cd /tmp
+   33  ls -alrt
+   34  mkdir kavya
+   35  clear
+   36  ls -alrt
+   37  cd kavya
+   38  git init
+   39  sudo bash
+   40  ls -alrt
+   41  cd /tmp
+   42  ls -alrt
+   43  mkdir kavya
+   44  cd kavya
+   45  ls
+   46  git init
+   47  git status
+   48  vi a.txt
+   49  git add .
+   50  git commit -m "branch master a.txt"
+   51  git config user.name "kavya"
+   52  git config user.email "k@gmail.com"
+   53  git status
+   54  ls
+   55  git ls-files
+   56  vi a.txt
+   57  git add .
+   58  git commit -m "branch master altering a.txt"
+   59  git status
+   60  git ls-files
+   61  vi a.txt
+   62  git status
+   63  git add .
+   64  git commit -m "branch master altering 3rd time"
+   65  git ls-files
+   66  git log --oneline
+   67  git revert 0857476
+   68  git ls-files
+   69  cat a.txt
+   70  cd /tmp
+   71  ls-
+   72  ls -lart
+   73  mkdir kavya
+   74  cd kavya
+   75  ls -alrt
+   76  touch a.txt
+   77  git add .
+   78  git init
+   79  git config user.name "Kavya"
+   80  git config user.email "k@gmail.com"
+   81  git status
+   82  git add .
+   83  git commit -m "branch master new file"
+   84  git ls-files
+   85  ls
+   86  vi a.tzt
+   87  vi a.txt
+   88  touch b.txt
+   89  git add .
+   90  git commit -m "branch master new file b.txt and edited a.txt"
+   91  git status
+   92  vi a.txt
+   93  touch c.txt
+   94  git add .
+   95  git commit -m "branch master new file c.txt and edited a.txt"
+   96  git status
+   97  git log --oneline
+   98  vi a.txt
+   99  touch d.txt
+  100  git add .
+  101  git commit -m "branch master new file d.txt and edited a.txt"
+  102  git status
+  103  git log --oneline
+  104  git revert b6d7be6
+  105  git ls-files
+  106  git status
+  107  vi a.txt
+  108  git status
+  109  git add .
+  110  ls
+  111  cat a.txt
+  112  git ls-files
+  113  git status
+  114  git commit -m "branch master deleted b.txt edited a.txt"
+  115  git status
+  116  vi f.txt
+  117  vi g.txt
+  118  rm g.txt
+  119  ls -alrt
+  120  git status
+  121  git add .
+  122  git commit -m "learning cherry"
+  123  git status
+  124  git h.txt
+  125  vi h.txt
+  126  git add h.txt
+  127  git commit -m "learning pick"
+  128  git status
+  129  git log --oneline
+  130  git checkout -b b1 master
+  131  ls
+  132  git ls-files
+  133  git log --oneline
+  134  git commit --amend
+  135  git status
+  136  git checkout master
+  137  ls
+  138  git ls-files
+  139  git log --oneline
+  140  git revert 4375a96
+  141  git status
+  142  ls
+  143  git ls-files
+  144  git revert bdac1cb
+  145  ls
+  146  git ls-files
+  147  cd checkout b1
+  148  git checkout b1
+  149  ls
+  150  git log --oneline
+  151  git checkout master
+  152  ls
+  153  git ls-files
+  154  git cherry-pick 4375a96
+  155  ls
+  156  git ls-files
+  157  git status
+  158  uptime
+  159  cd /tmp
+  160  ls
+  161  mkdir -m 777 kavya
+  162  cd kavya
+  163  git init
+  164  git stash
+  165  vi a.txt
+  166  git add .
+  167  git commit -m "branch master a.txt"
+  168  git config user.name kavya
+  169  git config user.name "kavya"
+  170  git config user.email  "kavya"
+  171  git status
+  172  vi a.txt
+  173  git stash
+  174  git log --oneline
+  175  vi a.txt
+  176  cat a.txt
+  177  git add .
+  178  git commit -m "branch master a.txt modified 3rd time"
+  179  git status
+  180  git stash list
+  181  git show stash@{0}
+  182  git stash pop stash@{0}
+  183  ls
+  184  git ls-files
+  185  vi a.txt
+  186  git status
+  187  git stash a.txt
+  188  git stash
+  189  cat a.txt
+  190  git stash
+  191  git add .
+  192  ls
+  193  git ls-files
+  194  git stash
+  195  cat a.txt
+  196  git stash list
+  197  git stash pop stash@{0}
+  198  cat a.txt
+  199  git add .
+  200  git commit -m "branch master saving after stash and popping"
+  201  git status
+  202  git log --oneline
+  203  git stash list
+  204  git stash pop stash@{0}
+  205  cat a.txt
+  206  git add .
+  207  vi a.txt
+  208  git stash
+  209  git stash list
+  210  git status
+  211  cat a.txt
+  212  git stash pop stash@{0}
+  213  git stash list
+  214  git stash pop stash@{0}
+  215  cat a.txt
+  216  vi a.txt
+  217  git status
+  218  git add .
+  219  git status
+  220  git commit -m "branch master a.txt stash popped again"
+  221  git status
+  222  git log --oneline
+  223  git checkout -b b1 master
+  224  history
